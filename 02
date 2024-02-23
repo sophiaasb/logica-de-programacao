@@ -1,12 +1,12 @@
 programa {
   funcao inicio() {
-  // DeclaraÁ„o de vari·veis.
+  // Declara√ß√£o de vari√°veis.
   cadeia nome
   caracter sexo
   inteiro idade
   real peso
 
-  // Solicitando dados para o usu·rio.
+  // Solicitando dados para o usu√°rio.
   escreva("Digite seu nome: ")
   leia(nome)
 
@@ -19,10 +19,10 @@ programa {
   escreva("Digite seu peso: ")
   leia(peso)
 
-  // Exibindo dados para o usu·rio.
-  // Limpa o terminal, apagando o conte˙do exibido anteriormente.
+  // Exibindo dados para o usu√°rio.
+  // Limpa o terminal, apagando o conte√∫do exibido anteriormente.
   limpa()
-  escreva("=== Exibindo dados para o usu·rio ===")
+  escreva("=== Exibindo dados para o usu√°rio ===")
   escreva("\nNome: ", nome)
   escreva("\nSexo: ", sexo)
   escreva ("\nIdade: ", idade, " anos.")
