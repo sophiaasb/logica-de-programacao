@@ -1,22 +1,22 @@
 programa {
   funcao inicio() {
-    // DeclaraÁ„o de vari·veis.
+    // Declara√ß√£o de vari√°veis.
    real base, altura, area
 
-   // Solicitando dados para o usu·rio.
+   // Solicitando dados para o usu√°rio.
    escreva("Digite a base: ")
    leia(base)
 
    escreva("Digite a altura: ")
    leia (altura)
 
-  // Realizando c·lculos.
+  // Realizando c√°lculos.
   area = (base * altura) / 2
 
   // Exibindo resultados.
   escreva("=== Exibindo resultados ===")
   escreva("\nBase: ", base)
   escreva("\nAltura: ", altura)
-  escreva("\n¡rea: ", area)
+  escreva("\n√Årea: ", area)
     }
 }
