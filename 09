@@ -3,10 +3,10 @@ programa {
     inteiro primeiroNumero, segundoNumero, soma, produto, maiorValor, menorValor
     real media
 
-    escreva("Digite o primeiro número: ")
+    escreva("Digite o primeiro nÃºmero: ")
     leia(primeiroNumero)
 
-    escreva("Digite o segundo número: ")
+    escreva("Digite o segundo nÃºmero: ")
     leia(segundoNumero)
 
     soma = primeiroNumero + segundoNumero
@@ -23,7 +23,7 @@ programa {
 
     escreva("\nSoma: ", soma)
     escreva("\nProduto: ", produto)
-    escreva("\nMédia: ", media)
+    escreva("\nMÃ©dia: ", media)
     escreva("\nMaior valor: ", maiorValor)
     escreva("\nMenor valor: ", menorValor)
   }
