@@ -21,16 +21,16 @@ programa {
     escreva("Digite a terceira nota: ")
     leia(terceiraNota)
 
-    // Realizando cálculos.
+    // Realizando cÃ¡lculos.
 
     media = (primeiraNota + segundaNota + terceiraNota) / 3
 
    // Exibindo dados.
 
-    escreva("=== Exibindo dados para o usuário ===")
+    escreva("=== Exibindo dados para o usuÃ¡rio ===")
    escreva("\nNome: ", nome)
    escreva("\nIdade: ", idade)
-   escreva("\nMédia: ", media)
+   escreva("\nMÃ©dia: ", media)
     
     se(media >= 7) {
       escreva("\nAprovado!")
