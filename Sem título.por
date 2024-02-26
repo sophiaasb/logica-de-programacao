@@ -1,16 +1,19 @@
 programa {
   funcao inicio() {
-    inteiro idade
 
-    escreva("Digite sua idade: ")
-    leia(idade)
+    inteiro numero
 
-    se (idade >= 18) {
-      escreva("Maior de idade.")
-     }  senao {
-      escreva("Menor de idade.")
+    escreva("Digite um número: ")
+    leia(numero)
+    
+    se (numero == 10) {
+      escreva("É IGUAL A 10.")
+    } senao se (numero < 10) {
+     escreva("É MENOR QUE 10!")
+    } senao {
+     escreva("É MAIOR QUE 10!")
     }
-
-    escreva("\n=== Fim do programa ===")
+ 
+    escreva("=== Fim do programa> ===")
   }
 }
