@@ -3,15 +3,15 @@ programa {
 
     inteiro numero
 
-    escreva("Digite um número: ")
+    escreva("Digite um nÃºmero: ")
     leia(numero)
     
     se (numero == 10) {
-      escreva("É IGUAL A 10.")
+      escreva("Ã‰ IGUAL A 10.")
     } senao se (numero < 10) {
-     escreva("É MENOR QUE 10!")
+     escreva("Ã‰ MENOR QUE 10!")
     } senao {
-     escreva("É MAIOR QUE 10!")
+     escreva("Ã‰ MAIOR QUE 10!")
     }
  
     escreva("=== Fim do programa> ===")
