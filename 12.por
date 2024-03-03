@@ -6,9 +6,9 @@ programa {
     leia(idade)
 
     se (idade>=18 e idade<=65) {
-      escreva("Você é obrigado a votar.") 
+      escreva("VocÃª Ã© obrigado a votar.") 
     } senao {
-      escreva("Você não é obrigado a votar.")
+      escreva("VocÃª nÃ£o Ã© obrigado a votar.")
     }
 
   }
