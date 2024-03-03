@@ -1,18 +1,21 @@
 programa {
   funcao inicio() {
-   real numero, calculoUm, calculoDois
+   real quantidadeMaca, precoMaca, totalPagar
 
-    escreva("Digite a quantidade de ma��s que deseja comprar: ")
-    leia(numero)
-
-    calculoUm = (numero * 1.30)
-    calculoDois = (numero * 1.00)
+    escreva("Digite a quantidade de maçãs: ")
+    leia(quantidadeMaca)
   
-   se (numero < 12) {
-    escreva("O custo total da compra foi: R$ ", calculoUm)
-   } senao se (numero >= 12) {
-    escreva("O custo total da compra foi: R$ ", calculoDois)
+   se (quantidadeMaca <= 12) {
+   precoMaca = 1.30
+   } senao {
+   precoMaca = 1.0
    }
 
+totalPagar = quantidadeMaca * precoMaca
+
+escreva("\n=== Exibindo resultados ===")
+escreva("\nQuantidade de maças: ", quantidadeMaca)
+escreva("\nPreço das maçãs: R$ ", precoMaca)
+escreva("\nTotal a pagar: R$ ", totalPagar)
   }
 }
